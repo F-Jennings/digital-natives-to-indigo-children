@@ -5,7 +5,7 @@ Chrome extension that transmogrifies **digital newspeak** into your **crystallin
 ## Installation
 
 1. Add the extension on the [Chrome Web Store](https://chrome.google.com/webstore/detail/millennials-to-snake-peop/jhkibealmjkbkafogihpeidfcgnigmlf) (Chrome only for now)
-- [Free your mind](https://www.google.com/search?q=Millennials)
+2. [Vibrate at a higher frequency](https://www.google.com/search?q=digital%20natives)
 
 
 ## Also
@@ -14,9 +14,7 @@ Chrome extension that transmogrifies **digital newspeak** into your **crystallin
 - Make your own with [Search and Replace](https://chrome.google.com/webstore/detail/search-and-replace/bldchfkhmnkoimaciljpilanilmbnofo?hl=en-GB)
 
 ## Thanks
-Big thanks to [samford](https://github.com/samford) and [vandahm](https://github.com/vandahm) for their assistance! 
-
-See [GNU.org Licenses](http://www.gnu.org/licenses/).
+Big thanks to [ericwbailey](https://github.com/ericwbailey) for the original Millenials to Snake People extension, and  [samford](https://github.com/samford) and [vandahm](https://github.com/vandahm)! 
 
 ## Screenshots
 
@@ -42,3 +40,5 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License v3 for more details.
+
+See [GNU.org Licenses](http://www.gnu.org/licenses/).
