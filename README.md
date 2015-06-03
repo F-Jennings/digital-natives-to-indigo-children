@@ -1,7 +1,6 @@
-# Millennials to Snake People
+# **Digital Natives to Indigo Children**
 
-Chrome extension that reveals the *real* truth behind Millennials.
-
+Chrome extension that transmogrifies **digital newspeak** into your **crystalline fantasies**.
 
 ## Installation
 
@@ -17,6 +16,7 @@ Chrome extension that reveals the *real* truth behind Millennials.
 ## Thanks
 Big thanks to [samford](https://github.com/samford) and [vandahm](https://github.com/vandahm) for their assistance! 
 
+See [GNU.org Licenses](http://www.gnu.org/licenses/).
 
 ## Screenshots
 
@@ -31,3 +31,14 @@ Big thanks to [samford](https://github.com/samford) and [vandahm](https://github
 
 ### BuzzFeed
 [![BuzzFeed](https://i.imgur.com/PT1NWX5.png)](http://www.buzzfeed.com/sapna/what-public-companies-are-telling-wall-street-about-millenni)
+
+## Copyright & Licensing
+Copyright (C) 2015  F.B. Jennings
+
+This program is free software: you can redistribute it and/or modify 
+it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License v3 for more details.
