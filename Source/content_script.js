@@ -31,162 +31,171 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	// Fix some misspellings
-	v = v.replace(/\b(M|m)illienial(s)?\b/g, "$1illennial$2");
-	v = v.replace(/\b(M|m)illenial(s)?\b/g, "$1illennial$2");
-	v = v.replace(/\b(M|m)ilennial(s)?\b/g, "$1illennial$2");
-	v = v.replace(/\b(M|m)ilenial(s)?\b/g, "$1illennial$2");
+	// Digital Generation
+	v = v.replace(/\b(?:Digital Generation)|(?:Generation Digital)\b/g,"Indigo Council");
+	v = v.replace(/\b(?:digital generation)|(?:generation digital)\b/g,"indigo council");
 
-	// Millennial Generation
-	v = v.replace(
-		/\b(?:Millennial Generation)|(?:Generation Millennial)\b/g,
-		"Plissken Faction"
-	);
-	v = v.replace(
-		/\b(?:millennial generation)|(?:generation millennial)\b/g,
-		"Plissken faction"
-	);
+	// Digital Native
+	v = v.replace(/\b(?:Digital Native)\b/g,"Indigo Child");
+	v = v.replace(/\b(?:digital native)\b/g,"indigo child");
+	v = v.replace(/\b(?:A Digital Native)\b/g,"An Indigo Child");
+	v = v.replace(/\b(?:a digital native)\b/g,"an indigo child");
+	v = v.replace(/\b(?:digital natives)\b/g,"indigo children");
+	v = v.replace(/\b(?:Digital Natives)\b/g,"Indigo Children");
+	v = v.replace(/\b(?:Digital natives)\b/g,"Indigo children");
+	v = v.replace(/\b(?:Digital native)\b/g,"Indigo child");
+	v = v.replace(/\b(?:Digital Native's)\b/g,"Indigo Child's");
+	v = v.replace(/\b(?:Digital Natives')\b/g,"Indigo Children's");
+	v = v.replace(/\b(?:digital native's)\b/g,"indigo child's");
+	v = v.replace(/\b(?:digital natives')\b/g,"indigo children's");
+	
+	// Digital Immigrant
+	v = v.replace(/\b(?:Digital Immigrant)\b/g,"Low-Vibration Skeptic");
+	v = v.replace(/\b(?:digital immigrant)\b/g,"low-vibration skeptic");
+	v = v.replace(/\b(?:digital immigrants)\b/g,"low-vibration skeptics");
+	v = v.replace(/\b(?:Digital Immigrants)\b/g,"Low-Vibration Skeptics");
+	v = v.replace(/\b(?:Digital immigrant)\b/g,"Low-vibration skeptic");
+	v = v.replace(/\b(?:Digital immigrants)\b/g,"Low-vibration skeptics");
+	v = v.replace(/\b(?:Digital Immigrant's)\b/g,"Low-Vibration Skeptic's");
+	v = v.replace(/\b(?:Digital Immigrants')\b/g,"Low-Vibration Skeptics'");
+	v = v.replace(/\b(?:digital immigrant's)\b/g,"low-vibration skeptic's");
+	v = v.replace(/\b(?:digital immigrants')\b/g,"low-vibration skeptics'");
+	
+	//TechnoDevices
+	v = v.replace(/\b(?:iPhone)\b/g,"Golden Apple");
+	v = v.replace(/\b(?:iPhones)\b/g,"Golden Apples");
+	v = v.replace(/\b(?:iphone)\b/g,"golden apple");
+	v = v.replace(/\b(?:iphones)\b/g,"golden apples");
+	v = v.replace(/\b(?:Android)\b/g,"Sacred Source");
+	v = v.replace(/\b(?:android)\b/g,"sacred source");
+	v = v.replace(/\b(?:Smartphones)\b/g,"Mana Orbs");
+	v = v.replace(/\b(?:smartphones)\b/g,"mana orbs");
+	v = v.replace(/\b(?:Internet of Things)\b/g,"Collective Unconscious");
+	v = v.replace(/\b(?:internet of things)\b/g,"collective unconscious");
+	v = v.replace(/\b(?:IoT)\b/g,"collective unconscious");
+	v = v.replace(/\b(?:I.o.T.)\b/g,"collective unconscious");
+	v = v.replace(/\b(?:Floppy Dis(c|k))\b/g,"Charged Tourmaline");
+	v = v.replace(/\b(?:floppy dis(c|k))\b/g,"charged tourmaline");
+	v = v.replace(/\b(?:CD-ROM)\b/g,"Shimmering Opal");
+	v = v.replace(/\b(?:CD-ROMs)\b/g,"Shimmering Opals");
+	v = v.replace(/\b(?:Compact Dis(c|k))\b/g,"Shimmering Opal");
+	v = v.replace(/\b(?:Compact Dis(c|k)s)\b/g,"Shimmering Opals");
 
-	// Millennial
-	v = v.replace(/\bMillennial\b/g, "Snake Person");
-	v = v.replace(/\bmillennial\b/g, "snake person");
-	v = v.replace(/\bMillennials\b/g, "Snake People");
-	v = v.replace(/\bmillennials\b/g, "snake people");
-	v = v.replace(/\bMillennials'\b/g, "Snake People's");
-	v = v.replace(/\bmillennials'\b/g, "snake people's");
+	// The Information Age
+	v = v.replace(/\bInformation Age\b/g,"Indigo Celebration");
+	v = v.replace(/\binformation age\b/g,"indigo celebration");
+	v = v.replace(/\bWeb\b/g,"Ariadne's Weaving");
+	v = v.replace(/\bweb\b/g,"Ariadne's weaving");
 
-	// The Great Recession
-	v = v.replace(/\bGreat Recession\b/g, "Time of Shedding and Cold Rocks");
-	v = v.replace(/\bgreat recession\b/g, "time of shedding and cold rocks");
+	// Social Media
+	v = v.replace(/\bSocial Media\b/g,"Vibratory Communication");
+	v = v.replace(/\bsocial media\b/g,"vibratory communication");
+	v = v.replace(/\bSocial Network\b/g,"Vibratory Communication");
+	v = v.replace(/\bsocial network\b/g,"vibratory communication");
+	v = v.replace(/\bSocial Networks\b/g,"Vibratory Communications");
+	v = v.replace(/\bsocial networks\b/g,"vibratory communications");
+	v = v.replace(/\bTwitter\b/g,"Great Thunderbird");
+	v = v.replace(/\btwitter\b/g,"great thunderbird");
+	v = v.replace(/\bFacebook\b/g,"Book of Names");
+	v = v.replace(/\bfacebook\b/g,"book of names");
+	v = v.replace(/\bText Messaging\b/g,"Telepathic Linking");
+	v = v.replace(/\btext messaging\b/g,"telepathic linking");
+	v = v.replace(/\bWikipedia\b/g,"Overmind");
+	v = v.replace(/\bwikipedia\b/g,"overmind");
+	v = v.replace(/\bYou(T|t)ube\b/g,"Scrying");
+	v = v.replace(/\byoutube\b/g,"scrying");
 
-	// The Great Depression
-	v = v.replace(/\bGreat Depression\b/g, "Clutch Plague");
-	v = v.replace(/\bgreat depression\b/g, "clutch plague");
+	// Online Presence
+	v = v.replace(/\bOnline Presence\b/g,"Astral Projection");
+	v = v.replace(/\bonline presence\b/g,"astral projection");
 
-	// Occupy Wall Street
-	v = v.replace(
-		/\b(?:(?:Occupy|OWS) (?:M|m)ovement)|(?:Occupy Wall Street)\b/g,
-		"Great Ape-Snake War"
-	);
-	v = v.replace(
-		/\b(?:(?:occupy|OWS|ows) movement)|(?:occupy wall street)\b/g,
-		"great ape-snake war"
-	);
-	v = v.replace(/\bOWS\b/g, "GA-SW");
-	v = v.replace(/\bows\b/g, "ga-sw");
+	// HMDs
+	v = v.replace(/\bGoogle Glass\b/g,"Third-Eye Chakra");
+	v = v.replace(/\bgoogle glass\b/g,"third-eye chakra");
+	v = v.replace(/\bOculus Rift\b/g,"Third-Eye Chakra");
+	v = v.replace(/\boculus rift\b/g,"third-eye chakra");
+	v = v.replace(/\bHead Mounted Display\b/g,"Third-Eye Chakra");
+	v = v.replace(/\bhead mounted display\b/g,"third-eye chakra");
+	v = v.replace(/\bHMD\b/g,"Ajna Chakra");
+	v = v.replace(/\bhmd\b/g,"ajna chakra");
+
+	// Narcissism
+	v = v.replace(/\bNarcissism\b/g,"Deep Eyes and Magnetic Personality");
+	v = v.replace(/\bnarcissism\b/g,"deep eyes and magnetic personality");
+
+	// ADHD
+	v = v.replace(/\bADHD\b/g,"Attention Dialed into a Higher Dimension");
+	v = v.replace(/\badhd\b/g,"attention dialed into a higher dimension");
+	v = v.replace(/\b(?:Attention Deficit Hyperactivity Disorder)|(?:attention deficit hyperactivity disorder)\b/g,
+	"Attention Dialed into a Higher Dimension");
+
+	// The Cloud
+	v = v.replace(/\b(?:Cloud|cloud)|(?:Cloud Computing|cloud computing)\b/g,"Crystal Harmonics");
+	v = v.replace(/\b(?:cloud hosting)|(?:cloud computing)\b/g,"crystal harmonics");
+	v = v.replace(/\b(?:Hosted Solutions)\b/g,"Crystal Frequencies");
+	v = v.replace(/\b(?:hosted solutions)\b/g,"crystal frequencies");
+
+	// Digital Technologies
+	v = v.replace(/\b(?:Digital Technologies)\b/g,"Higher Vibrations")
+	v = v.replace(/\b(?:digital technologies)\b/g,"higher vibrations")
+	v = v.replace(/\b(?:Digital Technology)\b/g,"Higher Vibration")
+	v = v.replace(/\b(?:digital technology)\b/g,"higher vibration")
 
 	// Helicopter Parents
-	v = v.replace(/\bHelicopter Parents\b/g, "Thulsa Doom");
-	v = v.replace(/\bhelicopter parents\b/g, "Thoth-Amon");
-	v = v.replace(/\bHelicopter Parents'\b/g, "Thulsa Doom's");
-	v = v.replace(/\bhelicopter parents'\b/g, "Thoth-Amon's");
+	v = v.replace(/\bHelicopter Parents\b/g,"Enlightened Mentors");
+	v = v.replace(/\bhelicopter parents\b/g,"chosen souls");
+	v = v.replace(/\bHelicopter Parents'\b/g,"Enlightened Mentors'");
+	v = v.replace(/\bhelicopter parents'\b/g,"chosen souls'");
 
 	// Trophy Kids
-	v = v.replace(/\bTrophy Kids\b/g, "Quetzalcoatl's Chosen");
-	v = v.replace(/\btrophy kids\b/g, "Quetzalcoatl's chosen");
-	v = v.replace(/\bTrophy Kids'\b/g, "Quetzalcoatl's Chosen's");
-	v = v.replace(/\btrophy kids'\b/g, "Quetzalcoatl's chosen's");
-
-	// Digital Natives
-	v = v.replace(/\bDigital Native(s)?\b/g, "Parseltongue$1");
-	v = v.replace(/\bdigital native(s)?\b/g, "parseltongue$1");
+	v = v.replace(/\bTrophy Kids\b/g,"Rainbow Children");
+	v = v.replace(/\btrophy kids\b/g,"rainbow children");
+	v = v.replace(/\bTrophy Kids'\b/g,"Rainbow Children's");
+	v = v.replace(/\btrophy kids'\b/g,"rainbow children's");
 
 	// Generation Y
-	v = v.replace(/\b(?:Generation Y)|(?:Generation Why)\b/g,
-		"Serpent Society");
-	v = v.replace(/\bgen(?:eration)? ?(?:wh)?y\b/g, "serpent society");
-	v = v.replace(/\bGen Y\b/g, "Society of the Serpent");
+	v = v.replace(/\b(?:Generation Y)|(?:Generation Why)\b/g,"The Crystal Cusp");
+	v = v.replace(/\bgen(?:eration)? ?(?:wh)?y\b/g,"the crystal cusp");
+	v = v.replace(/\bGen Y\b/g,"crystal generation");
+	
+	// Millenials
+	v = v.replace(/\b(?:Millennials)\b/g,"Crystal Souls");
+	v = v.replace(/\bgen(?:millennials)\b/g,"crystal souls");
+	v = v.replace(/\bgen(?:Millennial)\b/g,"Crystal Soul");
+	v = v.replace(/\bgen(?:millennial)\b/g,"crystal soul");
 
 	// Generation We
-	v = v.replace(/\bGeneration We\b/g, "Caduceus Cult");
-	v = v.replace(/\bgeneration we\b/g, "caduceus cult");
-	v = v.replace(/\bWe Generation\b/g, "Cult of the Caduceus");
-	v = v.replace(/\bwe generation\b/g, "cult of the caduceus");
+	v = v.replace(/\bGeneration We\b/g,"Lightworkers");
+	v = v.replace(/\bgeneration we\b/g,"lightworkers");
+	v = v.replace(/\bWe Generation\b/g,"Age of Light");
+	v = v.replace(/\bwe generation\b/g,"Age of Light");
 
 	// Generation Me
-	v = v.replace(/\bGeneration Me\b/g, "The Cult of the Serpent");
-	v = v.replace(/\bgeneration me\b/g, "the cult of the serpent");
+	v = v.replace(/\bGeneration Me\b/g,"Good Vibes Generation");
+	v = v.replace(/\bgeneration me\b/g,"good vibes generation");
 
-	// Global Generation
-	v = v.replace(/\bGlobal Generation\b/g, "Tannin's Horde");
-	v = v.replace(/\bglobal generation\b/g, "Tannin's horde");
-	v = v.replace(/\bGeneration Global\b/g, "Horde of Tannin");
-	v = v.replace(/\bgeneration global\b/g, "horde of Tannin");
-
-	// Generation Next
-	v = v.replace(/\bGeneration Next\b/g, "Time of Nidhogg");
-	v = v.replace(/\bgeneration next\b/g, "time of Nidhogg");
+	// Online Natives
+	v = v.replace(/\bOnline Natives\b/g,"Indigos");
+	v = v.replace(/\bonline natives\b/g,"indigos");
+	v = v.replace(/\bOnline Native\b/g,"Indigo");
+	v = v.replace(/\bonline native\b/g,"indigo");
 
 	// Net Generation
-	v = v.replace(/\bNet Generation\b/g, "Damballa's Coils");
-	v = v.replace(/\bnet generation\b/g, "Damballa's coils");
-	v = v.replace(/\bGeneration Net\b/g, "Coils of Damballa");
-	v = v.replace(/\bgeneration net\b/g, "Coils of Damballa");
-
-	// Echo Boomers
-	v = v.replace(/\bEcho Boomers\b/g, "Crotalids");
-	v = v.replace(/\becho Boomers\b/g, "crotalids");
-
-	// New Boomers
-	v = v.replace(/\bNew Boomers\b/g, "Jörmungandr's Circle");
-	v = v.replace(/\bnew Boomers\b/g, "Jörmungandr's circle");
-	v = v.replace(/\bNew Boomers'\b/g, "Jörmungandr's Circle's");
-	v = v.replace(/\bnew Boomers'\b/g, "Jörmungandr's circle's");
-
-	// Generation Flux
-	v = v.replace(/\b(?:Generation Flux)|(?:Flux Generation)\b/g, "Hiss Club");
-	v = v.replace(/\b(?:generation flux)|(?:flux generation)\b/g, "hiss club");
-
-	// Generation Sell
-	v = v.replace(/\bGeneration Sell\b/g, "Kaa Tribe");
-	v = v.replace(/\bgeneration sell\b/g, "Kaa tribe");
-	v = v.replace(/\bSell Generation\b/g, "Tribe of Kaa");
-	v = v.replace(/\bsell generation\b/g, "tribe of Kaa");
+	v = v.replace(/\bNet Generation\b/g,"Crystal Generation");
+	v = v.replace(/\bnet generation\b/g,"crystal generation");
+	v = v.replace(/\bGeneration Net\b/g,"Crystal Generation");
+	v = v.replace(/\bgeneration net\b/g,"crystal generation");
 
 	// Boomerang Generation
-	v = v.replace(
-		/\b(?:Boomerang Generation)|(?:Generation Boomerang)\b/g,
-		"Ouroboros Society"
-	);
-	v = v.replace(
-		/\b(?:boomerang generation)|(?:generation boomerang)\b/g,
-		"ouroboros society"
-	);
+	v = v.replace(/\b(?:Boomerang Generation)|(?:Generation Boomerang)\b/g,"Enlightened Homesteaders");
+	v = v.replace(/\b(?:boomerang generation)|(?:generation boomerang)\b/g,"enlightened homesteaders");
 
 	// Peter Pan Generation
-	v = v.replace(/\bPeter Pan Generation\b/g, "Neheb-Kau Cult");
-	v = v.replace(/\b(?:P|p)eter (?:P|p)an generation\b/g, "Neheb-Kau cult");
-	v = v.replace(/\bGeneration Peter Pan\b/g, "Cult of Neheb-Kau");
-	v = v.replace(/\bgeneration (?:P|p)eter (?:P|p)an\b/g, "cult of Neheb-Kau");
+	v = v.replace(/\bPeter Pan Generation\b/g,"Young Souls");
+	v = v.replace(/\b(?:P|p)eter (?:P|p)an generation\b/g,"young souls");
+	v = v.replace(/\bGeneration Peter Pan\b/g,"Young Souls");
+	v = v.replace(/\bgeneration (?:P|p)eter (?:P|p)an\b/g,"young souls");
 
-	// Generation 911
-	v = v.replace(/\bGen(?:eration)? 9\/?11\b/g, "Kaa Tribe");
-	v = v.replace(/\bgen(?:eration)? 9\/?11\b/g, "Kaa tribe");
-	v = v.replace(/\b9\/?11 Generation\b/g, "Tribe of the Kaa");
-	v = v.replace(/\b9\/?11 generation\b/g, "tribe of the Kaa");
-
-	// The Generation of €700
-	v = v.replace(
-		/\b(?:The Generation of €700)|(?:€700 Generation)\b/g,
-		"Ophion"
-	);
-	v = v.replace(
-		/\b(?:the generation of €700)|(?:€700 generation)\b/g,
-		"ophion"
-	);
-
-	// Mileurista
-	v = v.replace(/\b(?:M|m)ill?eurista\b/g, "Nagual");
-
-	// Precarious Generation
-	v = v.replace(
-		/\b(?:Precarious Generation)|(?:Generation Precarious)\b/g,
-		"Gargouille"
-	);
-	v = v.replace(
-		/\b(?:precarious generation)|(?:generation precarious)\b/g,
-		"gargouille"
-	);
 
 	textNode.nodeValue = v;
 }
