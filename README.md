@@ -4,7 +4,7 @@ Chrome extension that transmogrifies **digital newspeak** into your **crystallin
 
 ## Installation
 
-1. Add the extension on the [Chrome Web Store](https://chrome.google.com/webstore/detail/digital-natives-to-indigo/ekmpihnpaiagemjekbggdcfdmgbmlhgn)(Chrome only for now)
+1. Add the extension on the [Chrome Web Store](https://chrome.google.com/webstore/detail/digital-natives-to-indigo/ekmpihnpaiagemjekbggdcfdmgbmlhgn) (Chrome only for now)
 2. [Vibrate at a higher frequency](https://www.google.com/search?q=digital%20natives)
 
 
