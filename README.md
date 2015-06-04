@@ -4,7 +4,7 @@ Chrome extension that transmogrifies **digital newspeak** into your **crystallin
 
 ## Installation
 
-1. Add the extension on the [Chrome Web Store](https://chrome.google.com/webstore/detail/millennials-to-snake-peop/jhkibealmjkbkafogihpeidfcgnigmlf) (Chrome only for now)
+1. Add the extension on the [Chrome Web Store](https://chrome.google.com/webstore/detail/digital-natives-to-indigo/ekmpihnpaiagemjekbggdcfdmgbmlhgn)(Chrome only for now)
 2. [Vibrate at a higher frequency](https://www.google.com/search?q=digital%20natives)
 
 
@@ -17,18 +17,7 @@ Chrome extension that transmogrifies **digital newspeak** into your **crystallin
 Big thanks to [ericwbailey](https://github.com/ericwbailey) for the original Millenials to Snake People extension, and  [samford](https://github.com/samford) and [vandahm](https://github.com/vandahm)! 
 
 ## Screenshots
-
-### Installed Chrome Extension
-![](https://i.imgur.com/xAzfhw8.png)
-
-### Google Search Results
-[![Google Search Results](https://i.imgur.com/GTBOuEr.png)](https://www.google.com/search?q=Millennials)
-
-### The Atlantic
-[![The Atlantic](https://i.imgur.com/LDFOsrO.png)](http://www.theatlantic.com/politics/archive/2013/08/the-outsiders-how-can-millennials-change-washington-if-they-hate-it/278920/)
-
-### BuzzFeed
-[![BuzzFeed](https://i.imgur.com/PT1NWX5.png)](http://www.buzzfeed.com/sapna/what-public-companies-are-telling-wall-street-about-millenni)
+*coming soon*
 
 ## Copyright & Licensing
 Copyright (C) 2015  F.B. Jennings
